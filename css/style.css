@@ -1,0 +1,76 @@
+.cabecalho {
+    background-color: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.nome-cabecalho {
+    color:  #007bff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.foto-story {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+}
+
+
+
+.boas-vindas {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.foto-principal {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #007bff;
+}
+
+.quem-sou-eu {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.descricao {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+.especialidades i {
+    color: #007bff; 
+    transition: transform 0.3s ease;
+    margin-top: 40px;
+}
+
+.especialidades i:hover {
+    transform: scale(1.1);
+}
+
+
+.especialidades p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+

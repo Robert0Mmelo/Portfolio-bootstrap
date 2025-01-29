@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="./assets/media/R-icon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-sou-eu">Quem Sou Eu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#especialidades">Especialidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#redes-sociais">Redes Sociais</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="cabecalho" id="inicio" style="padding-top: 60px;"> 
+        <div class="container d-flex align-items-center">
+            <img src="./assets/media/Foto-Roberto-Mateus.png" class="foto-story rounded-circle">
+            <h2><span class="nome-cabecalho">Roberto Mateus</span></h2>
+        </div>
+    </header>
+    <section class="container mt-4 text-center">
+        <h1><span class="boas-vindas">Seja Bem-Vindo!</span></h1>
+    </section>
+
+    <section class="container mt-4" id="quem-sou-eu">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./assets/media/Foto-Roberto-Mateus.png" class="foto-principal">
+            </div>
+            <div class="col-md-8">
+                <h2><span class="quem-sou-eu">Quem sou eu?</span></h2>
+                <p class="descricao"> Sou Roberto Mateus, um desenvolvedor Fullstack apaixonado por tecnologia e resolver problemas na area, e estou sempre em busca de aprender novas habilidades e enfrentar novos desafios na área, atualmente em processo de apendizado no Treina Recife em busca de entrar na Consenso Tecnologia .</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5 especialidades" id="especialidades">
+        <h2 class="text-center mb-4">Especialidades:</h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <i class="fab fa-java fa-3x mb-2"></i>
+                <p>Java</p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <i class="fab fa-html5 fa-3x mb-2"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <i class="fab fa-css3-alt fa-3x mb-2"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <i class="fab fa-js-square fa-3x mb-2"></i>
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-light py-3 mt-5 " id="redes-sociais">
+        <div class="container text-center">
+            <h3 class="mb-3">Redes Sociais</h3> 
+            <button onclick="window.open('https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile')" class="btn btn-outline-light mx-2">
+                <i class="fab fa-linkedin"></i>
+            </button>
+            <button onclick="window.open('https://github.com/Robert0Mmelo')" class="btn btn-outline-light mx-2">
+                <i class="fab fa-github"></i>
+            </button>
+            <button onclick="window.open('https://www.instagram.com/_robertommelo/')" class="btn btn-outline-light mx-2">
+                <i class="fab fa-instagram"></i>
+            </button>
+
+        </div>
+    </footer>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
