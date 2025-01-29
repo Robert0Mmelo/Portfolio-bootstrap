@@ -25,7 +25,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#" title="defina o título do link">
         <img src="https://avatars.githubusercontent.com/u/142346943?s=400&v=4" width="100px;" alt="Foto Roberto Mateus no GitHub"/><br>
         <sub>
-          <b>André Luiz</b>
+          <b>Roberto Mateus</b>
         </sub>
       </a>
     </td>
